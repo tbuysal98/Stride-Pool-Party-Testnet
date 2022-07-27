@@ -26,8 +26,6 @@ strided keys add <walletName>
 
 ## Discordan test tokeni alma: [Discord Linki](https://discord.gg/4B4cbvCh)
 
-![image](https://user-images.githubusercontent.com/101149671/180231116-4eaae21a-184c-4204-a3f1-e7ac945e1455.png)
-
 ## Validator oluşturma:
 
 * MONİKER ve FROM kısımlarını düzenleyin.
@@ -36,7 +34,7 @@ strided keys add <walletName>
 strided tx staking create-validator \
 --amount=9900000ustrd \
 --pubkey=$(strided tendermint show-validator) \
---moniker=RuesValidator \
+--moniker=Szobody \
 --chain-id=STRIDE-TESTNET-2 \
 --commission-rate="0.10" \
 --commission-max-rate="0.20" \
@@ -44,7 +42,7 @@ strided tx staking create-validator \
 --min-self-delegation="1" \
 --fees=250ustrd \
 --gas=200000 \
---from=rues \
+--from=Szobody \
 --website="http://forum.rues.info/" \
 --details="https://linktr.ee/ruesandora0" \
 -y
